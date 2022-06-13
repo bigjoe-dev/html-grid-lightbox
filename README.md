@@ -1,0 +1,1 @@
+# Simple responsive HTML image grid with built-in lightbox
