@@ -5,20 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image grid</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simple-lightbox.css"
 </head>
 <body>
     <div class="container">
         <div class="gallery">
-            <img src="images/1.jpg">
-            <img src="images/2.jpg">
-            <img src="images/3.jpg">
-            <img src="images/4.jpg">
-            <img src="images/5.jpg">
-            <img src="images/6.jpg">
-            <img src="images/7.jpg">
-            <img src="images/8.jpg">
+            <a href="images/1.jpg">
+                <img src="images/1.jpg" alt="" title="">
+            </a>
+            <a href="images/2.jpg">
+                <img src="images/2.jpg" alt="" title="">
+            </a>
+            <a href="images/3.jpg">
+                <img src="images/3.jpg" alt="" title="">
+            </a>
+            <a href="images/4.jpg">
+                <img src="images/4.jpg" alt="" title="">
+            </a>
+            <a href="images/5.jpg">
+                <img src="images/5.jpg" alt="" title="">
+            </a>
+            <a href="images/6.jpg">
+                <img src="images/6.jpg" alt="" title="">
+            </a>
+            <a href="images/7.jpg">
+                <img src="images/7.jpg" alt="" title="">
+            </a>
+            <a href="images/8.jpg">
+                <img src="images/8.jpg" alt="" title="">
+            </a>
         </div>
     </div>
+    <script src="js/simple-lightbox.js"></script>
+    <script>
+        var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+    </script>
 </body>
 </html>
